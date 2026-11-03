@@ -1,0 +1,563 @@
+// src/data/projects.js
+
+export const projects = [
+  // ================================================================
+  // កម្រិតទី ១៖ ENTERPRISE & CONTAINERIZATION (JAVA & SPRING BOOT)
+  // ================================================================
+
+  // // 1. SPRING BOOT ENTERPRISE SERVICES
+  // {
+  //   id: 'spring-boot-api',
+  //   slug: 'spring-boot-api',
+  //   title: 'Spring Boot Enterprise Services',
+  //   description: 'RESTful enterprise backend architecture engineered with Java and Spring Boot, featuring automated dependency injection, secure JWT authentication, and relational data persistence.',
+  //   descriptionKh: 'ប្រព័ន្ធ Backend អាជីវកម្មបែប RESTful បង្កើតឡើងដោយ Java និង Spring Boot ដោយមានប្រព័ន្ធ JWT Authentication និង Relational Database។',
+  //   problem: 'Enterprise microservices require scalable endpoints, strict contract verification, and hardened role-based authorization for multi-tenant data access.',
+  //   problemKh: 'ប្រព័ន្ធ Microservices ត្រូវការ Endpoint ដែលអាចពង្រីកបាន និងប្រព័ន្ធសុវត្ថិភាពច្បាស់លាស់សម្រាប់ការពារទិន្នន័យ។',
+  //   solution: 'Engineered a container-ready Spring Boot backend incorporating Spring Security, Hibernate ORM, and automated MySQL schema migrations.',
+  //   solutionKh: 'បានបង្កើតប្រព័ន្ធ Backend ជាមួយ Spring Boot ដោយប្រើ Spring Security, Hibernate ORM និងការគ្រប់គ្រង MySQL Schema ដោយស្វ័យប្រវត្តិ។',
+  //   features: [
+  //     'Microservice architecture setup with Spring Boot',
+  //     'Data JPA repository abstraction layer',
+  //     'JWT role-based authentication and authorization',
+  //     'MySQL schema migrations and query indexing'
+  //   ],
+  //   featuresKh: [
+  //     'រចនាសម្ព័ន្ធ Microservice ជាមួយ Spring Boot',
+  //     'Data JPA repository abstraction layer',
+  //     'ប្រព័ន្ធ JWT role-based authentication',
+  //     'ការគ្រប់គ្រង Database MySQL schema migrations'
+  //   ],
+  //   technologies: ['Spring Boot', 'Java', 'MySQL', 'Maven', 'REST API'],
+  //   github: 'https://github.com/NgetMeas22',
+  //   live: null,
+  //   category: ['Spring Boot', 'Java', 'Backend'],
+  //   isTeamProject: false,
+  //   featured: true,
+  //   year: '2026'
+  // },
+
+  // ================================================================
+  // កម្រិតទី ០៖ MODERN FULL STACK (NEXT.JS + EXPRESS + POSTGRESQL)
+  // ================================================================
+
+  // 0. DYD PROPERTY
+  {
+    id: 'dyd-property',
+    slug: 'dyd-property',
+    cover: '/projects/dyd-property.webp',
+    builtWith: 'Claude',
+    title: 'DYD Property',
+    description: 'Full-stack real estate marketplace for Cambodia built with Next.js, an Express REST API, and PostgreSQL — featuring map-based search, a listing wizard, agent dashboards, and an admin moderation console.',
+    descriptionKh: 'វេទិកាទីផ្សារអចលនទ្រព្យពេញលេញសម្រាប់កម្ពុជា បង្កើតឡើងដោយ Next.js, Express REST API និង PostgreSQL ជាមួយការស្វែងរកលើផែនទី ផ្ទាំងភ្នាក់ងារ និងផ្ទាំងគ្រប់គ្រង Admin។',
+    problem: 'Property buyers in Cambodia lack a trustworthy, bilingual platform to search verified listings by location, compare prices, and contact certified agents.',
+    problemKh: 'អ្នកទិញអចលនទ្រព្យនៅកម្ពុជាខ្វះវេទិកាពីរភាសាដែលគួរឱ្យទុកចិត្ត ដើម្បីស្វែងរកអចលនទ្រព្យតាមទីតាំង ប្រៀបធៀបតម្លៃ និងទាក់ទងភ្នាក់ងារដែលបានផ្ទៀងផ្ទាត់។',
+    solution: 'Built a monorepo with a Next.js App Router frontend and a TypeScript Express API using Prisma ORM on PostgreSQL, with JWT role-based auth, Zod validation, and Cloudinary image storage. Deployed on Vercel, Render, and Neon.',
+    solutionKh: 'បានបង្កើត Monorepo ជាមួយ Next.js App Router និង Express API (TypeScript) ដោយប្រើ Prisma ORM លើ PostgreSQL, JWT role-based auth, Zod validation និង Cloudinary។ ដាក់ឱ្យដំណើរការលើ Vercel, Render និង Neon។',
+    features: [
+      'Zillow-style split view: property results synced with an interactive Leaflet map',
+      'Guided 5-step listing wizard with photo uploads saved to PostgreSQL',
+      'Role-based dashboards for buyers, sellers, agents, and admins',
+      'Admin moderation queue, agent verification, and security audit logs',
+      'Mortgage & affordability calculator with Khmer / English toggle'
+    ],
+    featuresKh: [
+      'ការស្វែងរកបែប Zillow ជាមួយផែនទី Leaflet អន្តរកម្ម',
+      'ទម្រង់ដាក់លក់ ៥ ជំហាន ជាមួយការ Upload រូបភាពទៅ PostgreSQL',
+      'ផ្ទាំងគ្រប់គ្រងតាមតួនាទី៖ អ្នកទិញ អ្នកលក់ ភ្នាក់ងារ និង Admin',
+      'ការត្រួតពិនិត្យការដាក់លក់ ការផ្ទៀងផ្ទាត់ភ្នាក់ងារ និង Audit Logs',
+      'ម៉ាស៊ីនគណនាប្រាក់កម្ចី និងប្តូរភាសាខ្មែរ / អង់គ្លេស'
+    ],
+    technologies: ['Next.js', 'TypeScript', 'Express.js', 'PostgreSQL', 'Prisma', 'Tailwind CSS', 'Leaflet', 'JWT', 'Neon', 'Render'],
+    github: 'https://github.com/NgetMeas22',
+    live: null, // live site hidden: contains private info
+    privateDemo: true,
+    video: '/projects/videos/dyd-property.mp4',
+    category: ['Next.js', 'Express', 'PostgreSQL', 'Full Stack'],
+    isTeamProject: false,
+    featured: true,
+    year: '2026'
+  },
+
+  // 0. PHSAR LEDGER (AI LEDGER)
+  {
+    id: 'phsar-ai-ledger',
+    slug: 'phsar-ai-ledger',
+    cover: '/projects/phsar-ai-ledger.webp',
+    builtWith: 'Claude',
+    title: 'Phsar AI Ledger',
+    description: 'AI-powered income and expense ledger for Cambodian small businesses that scans receipts with Google Gemini and records transactions in USD and KHR.',
+    descriptionKh: 'សៀវភៅកត់ត្រាចំណូលចំណាយដោយ AI សម្រាប់អាជីវកម្មខ្នាតតូចនៅកម្ពុជា ដែលស្កេនវិក្កយបត្រជាមួយ Google Gemini និងកត់ត្រាជាដុល្លារ និងរៀល។',
+    problem: 'Small shop owners still record sales and expenses by hand, which is slow, error-prone, and makes dual-currency (USD/KHR) bookkeeping difficult.',
+    problemKh: 'ម្ចាស់ហាងតូចៗនៅតែកត់ត្រាចំណូលចំណាយដោយដៃ ដែលយឺត ងាយខុស និងពិបាកគ្រប់គ្រងរូបិយប័ណ្ណពីរ (ដុល្លារ/រៀល)។',
+    solution: 'Built a Next.js + TypeScript frontend backed by an Express API on PostgreSQL. Receipts are photographed and parsed by Gemini into structured ledger entries with categories, VAT, and an AI explanation.',
+    solutionKh: 'បានបង្កើតកម្មវិធី Next.js + TypeScript ជាមួយ Express API និង PostgreSQL។ វិក្កយបត្រត្រូវបានថតរូប ហើយ Gemini បំប្លែងទៅជាទិន្នន័យកត់ត្រា ដែលមានប្រភេទ VAT និងការពន្យល់ពី AI។',
+    features: [
+      'Receipt photo scanning and data extraction with Gemini AI',
+      'Dual-currency ledger (USD / KHR) with live exchange rate',
+      'JWT authentication with password and OTP login',
+      'Dashboard, transaction history, and in-app notifications',
+      'Khmer-first, mobile-friendly interface'
+    ],
+    featuresKh: [
+      'ស្កេនរូបវិក្កយបត្រ និងទាញទិន្នន័យដោយ Gemini AI',
+      'កត់ត្រារូបិយប័ណ្ណពីរ (ដុល្លារ / រៀល) ជាមួយអត្រាប្តូរប្រាក់',
+      'ការចូលប្រើដោយ JWT ជាមួយពាក្យសម្ងាត់ និង OTP',
+      'ផ្ទាំងសង្ខេប ប្រវត្តិប្រតិបត្តិការ និងការជូនដំណឹង',
+      'ចំណុចប្រទាក់ភាសាខ្មែរ ងាយប្រើលើទូរស័ព្ទ'
+    ],
+    technologies: ['Next.js', 'TypeScript', 'Express.js', 'PostgreSQL', 'Gemini AI', 'JWT', 'Tailwind CSS', 'Render'],
+    github: 'https://github.com/NgetMeas22',
+    live: 'https://ai-ledger-one.vercel.app',
+    category: ['Next.js', 'Express', 'PostgreSQL', 'AI', 'Full Stack'],
+    isTeamProject: false,
+    featured: true,
+    year: '2026'
+  },
+
+  // 0. OMNIINPUT
+  {
+    id: 'omniinput',
+    slug: 'omniinput',
+    cover: '/projects/omniinput.webp',
+    builtWith: 'Claude',
+    title: 'OmniInput',
+    description: 'In-progress AI assistant that accepts text, voice, image, and file input, built with Next.js, an Express API, PostgreSQL (Neon), and a custom MCP server.',
+    descriptionKh: 'ជំនួយការ AI (កំពុងអភិវឌ្ឍ) ដែលទទួលអត្ថបទ សំឡេង រូបភាព និងឯកសារ បង្កើតឡើងដោយ Next.js, Express API, PostgreSQL (Neon) និង MCP Server។',
+    problem: 'Most chat tools handle one input type at a time and cannot call external tools, so users switch between apps to get work done.',
+    problemKh: 'កម្មវិធី Chat ភាគច្រើនទទួលបានតែប្រភេទទិន្នន័យមួយ ហើយមិនអាចហៅឧបករណ៍ខាងក្រៅបាន ដែលធ្វើឱ្យអ្នកប្រើត្រូវប្តូរកម្មវិធីច្រើន។',
+    solution: 'Designed a layered architecture: a Next.js frontend for multimodal input, an Express + Prisma backend for auth and conversations, and a Model Context Protocol server that exposes tools to the AI.',
+    solutionKh: 'បានរចនាស្ថាបត្យកម្មជាស្រទាប់៖ Next.js សម្រាប់បញ្ចូលទិន្នន័យច្រើនប្រភេទ Express + Prisma សម្រាប់ Auth និងការសន្ទនា និង MCP Server សម្រាប់ផ្តល់ឧបករណ៍ដល់ AI។',
+    features: [
+      'Text, voice, image, and file input in one conversation',
+      'Google OAuth and JWT authentication',
+      'Conversation history stored in PostgreSQL via Prisma',
+      'Custom MCP server exposing tools to the AI model'
+    ],
+    featuresKh: [
+      'បញ្ចូលអត្ថបទ សំឡេង រូបភាព និងឯកសារក្នុងការសន្ទនាតែមួយ',
+      'ការចូលប្រើដោយ Google OAuth និង JWT',
+      'រក្សាទុកប្រវត្តិការសន្ទនាក្នុង PostgreSQL តាម Prisma',
+      'MCP Server ផ្ទាល់ខ្លួនសម្រាប់ផ្តល់ឧបករណ៍ដល់ AI'
+    ],
+    technologies: ['Next.js', 'TypeScript', 'Express.js', 'PostgreSQL', 'Prisma', 'Neon', 'Gemini AI', 'MCP'],
+    github: 'https://github.com/NgetMeas22',
+    live: null,
+    category: ['Next.js', 'Express', 'PostgreSQL', 'AI', 'Full Stack'],
+    isTeamProject: false,
+    featured: true,
+    year: '2026'
+  },
+
+  // 0. LOM-OR STUDIO
+  {
+    id: 'lom-or-studio',
+    slug: 'lom-or-studio',
+    cover: '/projects/lom-or-studio.webp',
+    builtWith: 'Claude',
+    title: 'LOM-OR Studio',
+    description: 'Company website for a Phnom Penh architecture, interior design, and construction studio, built with Next.js and TypeScript.',
+    descriptionKh: 'គេហទំព័រក្រុមហ៊ុនស្ថាបត្យកម្ម រចនាផ្ទៃក្នុង និងសំណង់នៅភ្នំពេញ បង្កើតឡើងដោយ Next.js និង TypeScript។',
+    problem: 'The studio needed a professional online presence to present its services, leadership team, and completed projects to new clients.',
+    problemKh: 'ក្រុមហ៊ុនត្រូវការវត្តមានអនឡាញប្រកបដោយវិជ្ជាជីវៈ ដើម្បីបង្ហាញសេវាកម្ម ក្រុមដឹកនាំ និងគម្រោងដែលបានបញ្ចប់ដល់អតិថិជនថ្មី។',
+    solution: 'Developed a fast, SEO-friendly Next.js App Router site with a project portfolio, project detail modals, and scroll animations, deployed on Vercel.',
+    solutionKh: 'បានអភិវឌ្ឍគេហទំព័រ Next.js App Router ដែលលឿន និងល្អសម្រាប់ SEO ជាមួយផ្ទាំងបង្ហាញគម្រោង Modal លម្អិត និង Animation ពេល Scroll ដាក់លើ Vercel។',
+    features: [
+      'Pages for services, portfolio, about, and contact',
+      'Project gallery with detail modals',
+      'Leadership and managing director sections',
+      'Sticky header, scroll animations, and SEO metadata'
+    ],
+    featuresKh: [
+      'ទំព័រសេវាកម្ម គម្រោង អំពីយើង និងទំនាក់ទំនង',
+      'វិចិត្រសាលគម្រោងជាមួយ Modal លម្អិត',
+      'ផ្នែកក្រុមដឹកនាំ និងនាយកគ្រប់គ្រង',
+      'Header ជាប់ពេល Scroll, Animation និង SEO Metadata'
+    ],
+    technologies: ['Next.js', 'TypeScript', 'React', 'AOS', 'Vercel'],
+    github: 'https://github.com/NgetMeas22',
+    live: null, // live site hidden: contains private info
+    privateDemo: true,
+    video: '/projects/videos/lom-or-studio.mp4',
+    category: ['Next.js', 'Frontend'],
+    isTeamProject: false,
+    featured: true,
+    year: '2026'
+  },
+
+  // 0. ECOTECH TEAM PORTFOLIO
+  {
+    id: 'ecotech-team-portfolio',
+    slug: 'ecotech-team-portfolio',
+    cover: '/projects/ecotech-team-portfolio.webp',
+    builtWith: 'Claude',
+    title: 'Ecotech Team Portfolio',
+    description: 'Bilingual company and team portfolio for Ecotech — an enterprise tech, talent, and transformation team — built with React, Vite, and Tailwind CSS.',
+    descriptionKh: 'គេហទំព័រក្រុមហ៊ុន និងក្រុមការងារ Ecotech ពីរភាសា ដែលផ្តោតលើបច្ចេកវិទ្យា ធនធានមនុស្ស និងការផ្លាស់ប្តូរឌីជីថល បង្កើតឡើងដោយ React, Vite និង Tailwind CSS។',
+    problem: 'The team needed one professional site to present its services, industries, AI capabilities, past projects, and members to enterprise clients in both English and Khmer.',
+    problemKh: 'ក្រុមការងារត្រូវការគេហទំព័រវិជ្ជាជីវៈមួយ ដើម្បីបង្ហាញសេវាកម្ម វិស័យ សមត្ថភាព AI គម្រោង និងសមាជិក ដល់អតិថិជនជាភាសាអង់គ្លេស និងខ្មែរ។',
+    solution: 'Built a component-driven React SPA with i18next localization, reusable section components, an animated AI workflow network, and dark/light theming, deployed on Vercel.',
+    solutionKh: 'បានបង្កើត React SPA ផ្អែកលើ Component ជាមួយ i18next សម្រាប់ពីរភាសា Section ដែលប្រើឡើងវិញបាន បណ្តាញ AI Workflow មាន Animation និង Dark/Light Theme ដាក់លើ Vercel។',
+    features: [
+      'English / Khmer localization with i18next',
+      'Services, industries, AI lab, and architecture sections',
+      'Team member profiles and project showcase',
+      'Animated AI workflow network hero and responsive layout'
+    ],
+    featuresKh: [
+      'ពីរភាសា អង់គ្លេស / ខ្មែរ ជាមួយ i18next',
+      'ផ្នែកសេវាកម្ម វិស័យ AI Lab និងស្ថាបត្យកម្ម',
+      'ប្រវត្តិរូបសមាជិកក្រុម និងការបង្ហាញគម្រោង',
+      'Hero បណ្តាញ AI Workflow មាន Animation និងប្លង់ឆ្លើយតប'
+    ],
+    technologies: ['React', 'Vite', 'Tailwind CSS', 'i18next', 'React Router', 'Vercel'],
+    github: 'https://github.com/NgetMeas22',
+    live: null, // live site hidden: contains private info
+    privateDemo: true,
+    video: null, // add '/projects/videos/ecotech-team-portfolio.mp4' or a YouTube / Drive link
+    category: ['React', 'Frontend'],
+    isTeamProject: false,
+    featured: true,
+    year: '2026'
+  },
+
+  // 2. CINEMA MANAGEMENT SYSTEM (TEAM PROJECT)
+  {
+    id: 'cinema-management-system',
+    slug: 'cinema-management-system',
+    cover: '/projects/cinema-management-system.webp',
+    title: 'Cinema Management System',
+    description: 'Collaborative team platform engineering a comprehensive cinema booking and screening control system built with React TypeScript, Java Spring Boot, MySQL, and Docker.',
+    descriptionKh: 'ប្រព័ន្ធគ្រប់គ្រងរោងភាពយន្តសាងសង់ជាក្រុមជាមួយ React TypeScript, Java Spring Boot, MySQL, និង Docker។',
+    problem: 'Cinemas need a resilient system to orchestrate showtimes, enforce synchronized ticket reservations, and manage theater operations without race conditions.',
+    problemKh: 'រោងភាពយន្តត្រូវការប្រព័ន្ធទំនើបដើម្បីគ្រប់គ្រងភាពយន្ត ម៉ោងសម្ដែង ការកក់សំបុត្រ និងប្រតិបត្តិការមហោស្រព។',
+    solution: 'Built a containerized microservices-inspired architecture using Docker, with a typed React frontend and robust Spring Boot REST core.',
+    solutionKh: 'បានបង្កើតកម្មវិធី Docker containerized ជាមួយ TypeScript frontend និង Spring Boot backend សម្រាប់ដោះស្រាយការកក់កៅអីភ្លាមៗ។',
+    features: [
+      'Real-time seat reservation grid and booking locks',
+      'Movie schedule, cinema hall, and showtime administration',
+      'Customer ticketing and PDF receipt generation',
+      'Docker containerization and role-based staff portals'
+    ],
+    featuresKh: [
+      'ការកក់កៅអី និងចាក់សោរកៅអីភ្លាមៗ',
+      'ការគ្រប់គ្រងកាលវិភាគបញ្ចាំង និងបន្ទប់បញ្ចាំង',
+      'ការចេញសំបុត្រ និងវិក្កយបត្រ PDF សម្រាប់អតិថិជន',
+      'Docker containerization និងសហការក្រុម'
+    ],
+    technologies: ['React TypeScript', 'Java', 'Spring Boot', 'MySQL', 'Docker'],
+    github: 'https://github.com/NgetMeas22',
+    live: null,
+    video: '/projects/videos/cinema-management-system.mp4',
+    category: ['React TS','Java Spring Boot', 'MySQL', 'Team Project'],
+    isTeamProject: true,
+    featured: true,
+    year: '2026'
+  },
+
+  // ========================================================
+  // កម្រិតទី ២៖ DECOUPLED FULL STACK (VUE/REACT + LARAVEL API)
+  // ========================================================
+  // 4. CLINIC MANAGEMENT SYSTEM
+  {
+    id: 'clinic-management-system',
+    slug: 'clinic-management-system',
+    title: 'Clinic Management System',
+    description: 'A full-stack clinic management system with React frontend and Laravel REST API backend.',
+    descriptionKh: 'ប្រព័ន្ធគ្រប់គ្រងគ្លីនិកពេញលេញជាមួយ React frontend និង Laravel REST API backend។',
+    problem: 'Clinics need an efficient system to manage patient records, appointments, and medical data digitally.',
+    problemKh: 'គ្លីនិកត្រូវការប្រព័ន្ធមានប្រសិទ្ធភាពដើម្បីគ្រប់គ្រងកំណត់ត្រាអ្នកជំងឺ ការណាត់ជួប និងទិន្នន័យវេជ្ជសាស្រ្តឌីជីថល។',
+    solution: 'Developed a decoupled architecture with React for the frontend and Laravel for the REST API, using MySQL for data persistence.',
+    solutionKh: 'បានអភិវឌ្ឍស្ថាបត្យកម្មដាច់ដោយឡែកជាមួយ React សម្រាប់ frontend និង Laravel សម្រាប់ REST API ដោយប្រើ MySQL សម្រាប់រក្សាទុកទិន្នន័យ។',
+    features: [
+      'Patient electronic registration records',
+      'Doctor appointment calendar scheduling',
+      'Secured REST API communication',
+      'Decoupled client/server architecture'
+    ],
+    featuresKh: [
+      'គ្រប់គ្រងអ្នកជំងឺ',
+      'ការណាត់ជួប',
+      'REST API',
+      'ស្ថាបត្យកម្មដាច់ដោយឡែក'
+    ],
+    technologies: ['React', 'Laravel', 'PHP', 'MySQL', 'REST API'],
+    github: 'https://github.com/NgetMeas22/Clinic-Management-System',
+    live: null,
+    category: ['React', 'Laravel', 'PHP', 'MySQL', 'Full Stack'],
+    isTeamProject: false,
+    featured: true,
+    year: '2026'
+  },
+  
+  // ==========================================
+  // កម្រិតទី ៣៖ MODERN SPA (REACT & VITE)
+  // ==========================================
+
+  // 5. DEVELOPER TERMINAL PORTFOLIO
+  {
+    id: 'portfolio-dark',
+    slug: 'portfolio-dark',
+    cover: '/projects/portfolio-dark.webp',
+    title: 'Personal Portfolio II',
+    description: 'Personal cyber-terminal styled developer portfolio engineered with React and Tailwind CSS, featuring telemetry stats, bilingual support, and dark theme toggles.',
+    descriptionKh: 'គេហទំព័រ Portfolio ផ្ទាល់ខ្លួន បង្កើតឡើងដោយ React និង Tailwind CSS ជាមួយមុខងារប្តូរភាសា និង Theme។',
+    problem: 'Developers need a differentiated personal showcase that clearly presents both single and collaborative repositories with filtering capabilities.',
+    problemKh: 'ត្រូវការគេហទំព័រផ្ទាល់ខ្លួនដែលមានរបៀបរៀបរយច្បាស់លាស់ អាចស្វែងរក និងច្រោះគម្រោងតាមបច្ចេកវិទ្យាបានរហ័ស។',
+    solution: 'Created an audit-themed portfolio application utilizing React hooks, Lucide vectors, and dynamic slug telemetry routing.',
+    solutionKh: 'បានបង្កើតគេហទំព័ររចនាបែប Cyber Terminal ជាមួយ Dark/Light Theme និងប្រព័ន្ធគ្រប់គ្រងទិន្នន័យច្បាស់លាស់។',
+    features: [
+      'Bilingual content switching (English & Khmer)',
+      'Cyber-green terminal aesthetic with light/dark toggles',
+      'Fluid project filters and instant search indexing',
+      'Single-target telemetry audit detail pages'
+    ],
+    featuresKh: [
+      'មុខងារប្តូរពីរភាសា (អង់គ្លេស និង ខ្មែរ)',
+      'ការរចនាបែប Cyber Terminal ជាមួយ Dark/Light Theme',
+      'ប្រព័ន្ធ Filter និង Search គម្រោងបានរហ័ស',
+      'ទំព័របង្ហាញព័ត៌មានលម្អិតនៃគម្រោងនីមួយៗ'
+    ],
+    technologies: ['React', 'Vite', 'Tailwind CSS'],
+    github: 'https://github.com/NgetMeas22/M-Portfolio',
+    live: 'https://m-portfolio-one-ebon.vercel.app',
+    video: '/projects/videos/IMG_0307.MOV',
+    category: ['React', 'Frontend'],
+    isTeamProject: false,
+    featured: true,
+    year: '2026'
+  },
+
+  
+  // ===================================================
+  // កម្រិតទី ៤៖ SERVER-SIDE & FULL STACK (PHP & MYSQL)
+  // ===================================================
+
+  // 7. EMPLOYEE MANAGEMENT SYSTEM
+  {
+    id: 'employee-management-system',
+    slug: 'employee-management-system',
+    cover: '/projects/employee-management-system.webp',
+    title: 'Employee Management System',
+    description: 'Software that manages employee records, tracks attendance and leave, handles payroll, and monitors work performance.',
+    descriptionKh: 'កម្មវិធីដែលគ្រប់គ្រងកំណត់ត្រាបុគ្គលិក តាមដានវត្តមាន និងច្បាប់ឈប់សម្រាក គ្រប់គ្រងប្រាក់ខែ និងតាមដានសម្តែងការងារ។',
+    problem: 'Organizations need a systematic way to manage employee data, attendance, and performance.',
+    problemKh: 'ស្ថាប័នត្រូវការរបៀបប្រព័ន្ធដើម្បីគ្រប់គ្រងទិន្នន័យបុគ្គលិក វត្តមាន និងសម្តែង។',
+    solution: 'Developed a PHP-based employee management system with CRUD operations, attendance tracking, and payroll management.',
+    solutionKh: 'បានអភិវឌ្ឍប្រព័ន្ធគ្រប់គ្រងបុគ្គលិកដែលមានមូលដ្ឋាន PHP ជាមួយប្រតិបត្តិការ CRUD ការតាមដានវត្តមាន និងការគ្រប់គ្រងប្រាក់ខែ។',
+    features: [
+      'Employee records directory and roles',
+      'Attendance tracking and check-in audits',
+      'Leave request approvals flow',
+      'Automated payroll ledger calculations'
+    ],
+    featuresKh: [
+      'កំណត់ត្រាបុគ្គលិក',
+      'ការតាមដានវត្តមាន',
+      'ការគ្រប់គ្រងច្បាប់ឈប់សម្រាក',
+      'ប្រព័ន្ធប្រាក់ខែ'
+    ],
+    technologies: ['PHP', 'MySQL', 'TailwindCSS', 'JavaScript'],
+    github: 'https://github.com/NgetMeas22/Employee-Management-SYS',
+    live: 'https://genzsys.infinityfreeapp.com',
+    category: ['PHP', 'MySQL', 'Full Stack'],
+    isTeamProject: false,
+    featured: false,
+    year: '2026'
+  },
+
+  // 8. DAILY PLANNER
+  {
+    id: 'daily-planner',
+    slug: 'daily-planner',
+    cover: '/projects/daily-planner.webp',
+    title: 'Daily Planner',
+    description: 'Personal dashboard for tracking finances, academic subjects, and daily goals.',
+    descriptionKh: 'ផ្ទាំងគ្រប់គ្រងផ្ទាល់ខ្លួនសម្រាប់តាមដានហិរញ្ញវត្ថុ មុខវិជ្ជារៀន និងគោលបំណងប្រចាំថ្ងៃ។',
+    problem: 'Managing daily tasks, finances, and academic progress required a centralized dashboard to keep everything organized.',
+    problemKh: 'ការគ្រប់គ្រងកិច្ចការប្រចាំថ្ងៃ ហិរញ្ញវត្ថុ និងវឌ្ឍនភាពសិក្សាត្រូវការផ្ទាំងគ្រប់គ្រងកណ្តាលដើម្បីរក្សារឿងទាំងអស់ឱ្យមានរបៀប។',
+    solution: 'Built a full-stack PHP + MySQL application with a clean dashboard interface for managing personal data.',
+    solutionKh: 'បានបង្កើតកម្មវិធី PHP + MySQL ពេញលេញជាមួយចំណុចប្រទាក់ dashboard ស្អាតសម្រាប់គ្រប់គ្រងទិន្នន័យផ្ទាល់ខ្លួន។',
+    features: [
+      'Financial tracking and balance calculations',
+      'Academic subject scheduling and homework logs',
+      'Daily goal checkoffs and habit streaks',
+      'Responsive multi-device layout'
+    ],
+    featuresKh: [
+      'តាមដានហិរញ្ញវត្ថុ',
+      'គ្រប់គ្រងមុខវិជ្ជារៀន',
+      'កំណត់គោលបំណងប្រចាំថ្ងៃ',
+      'Dashboard ឆ្លើយតប'
+    ],
+    technologies: ['PHP', 'MySQL', 'TailwindCSS', 'JavaScript'],
+    github: 'https://github.com/NgetMeas22/Daily-Planner',
+    live: 'https://dailyplanner.infinityfreeapp.com',
+    category: ['PHP', 'MySQL', 'Full Stack'],
+    isTeamProject: false,
+    featured: true,
+    year: '2026'
+  },
+  // 3. G2-2-SUN MPOS (TEAM PROJECT)
+  {
+    id: 'g2-2-sun-mpos',
+    slug: 'g2-2-sun-mpos',
+    cover: '/projects/g2-2-sun-mpos.webp',
+    title: 'G2-2-Sun MPOS',
+    description: 'Modern Point of Sale (POS) and inventory control solution built as a collaborative team application using Vue.js, Tailwind CSS, Laravel API, and MySQL.',
+    descriptionKh: 'ប្រព័ន្ធចំណុចលក់ (POS) ទំនើបសាងសង់ជាក្រុមជាមួយ Vue.js, Tailwind CSS, Laravel backend, និង REST API។',
+    problem: 'Retail operations require low-latency checkout processing, barcode compatibility, multi-location stock tracking, and shift balancing.',
+    problemKh: 'អាជីវកម្មត្រូវការប្រព័ន្ធម៉ាស៊ីនគិតប្រាក់លឿន និងអាចទុកចិត្តបានដើម្បីដោះស្រាយប្រតិបត្តិការ និងសារពើភ័ណ្ឌ។',
+    solution: 'Constructed an MPOS platform pairing a reactive Vue.js client with an optimized Laravel API database backend.',
+    solutionKh: 'បានអភិវឌ្ឍប្រព័ន្ធពេញលេញ POS ជាមួយ Vue.js + Tailwind CSS frontend ដែលភ្ជាប់ទៅ Laravel API backend ជាមួយ MySQL database។',
+    features: [
+      'Fast barcode-friendly checkout flow and receipt generation',
+      'Live multi-warehouse inventory auditing and threshold alerts',
+      'Daily/Monthly financial analytics and telemetry metrics',
+      'Shift tracking and multi-cashier authorization'
+    ],
+    featuresKh: [
+      'ប្រព័ន្ធគិតលុយរហ័ស និងការបោះពុម្ពវិក្កយបត្រ',
+      'ការតាមដានស្តុកទំនិញច្រើនសាខា',
+      'របាយការណ៍ហិរញ្ញវត្ថុប្រចាំថ្ងៃ និងខែ',
+      'ការគ្រប់គ្រងវេន និងអ្នកគិតលុយច្រើននាក់'
+    ],
+    technologies: ['Vue.js', 'Tailwind CSS', 'Laravel', 'PHP', 'MySQL', 'REST API'],
+    github: 'https://github.com/NgetMeas22',
+    live: 'https://g2-2-sun-mpos-front.vercel.app',
+    category: ['Vue', 'Laravel', 'PHP', 'MySQL', 'Team Project', 'Team Project'],
+    isTeamProject: true,
+    featured: true,
+    year: '2026'
+  },
+
+// 9. MEXAS RESTAURANT
+  {
+    id: 'mexas-restaurant',
+    slug: 'mexas-restaurant',
+    title: 'MeXas Restaurant',
+    description: 'Dynamic restaurant menu, table reservation, and order logging application powered by pure PHP and MySQL backend architecture.',
+    descriptionKh: 'គេហទំព័រភោជនីយដ្ឋាន MeXas ជាមួយប្រព័ន្ធកក់តុ និងបញ្ជាទិញម្ហូប បង្កើតឡើងដោយប្រើប្រាស់ PHP និង MySQL។',
+    problem: 'Restaurants require an automated way to process dining reservations, adjust menu pricing dynamically, and reduce wait times.',
+    problemKh: 'ភោជនីយដ្ឋានត្រូវការវត្តមានឌីជីថលដើម្បីគ្រប់គ្រងម៉ឺនុយ ការកក់តុ និងការបញ្ជាទិញរបស់អតិថិជន។',
+    solution: 'Engineered a modular PHP application with relational MySQL tables, parameterized security queries, and responsive customer booking portals.',
+    solutionKh: 'បានបង្កើតកម្មវិធី web ភោជនីយដ្ឋានជាមួយការបង្ហាញម៉ឺនុយ ការគ្រប់គ្រងការកក់តុ និងសុវត្ថិភាពទិន្នន័យខ្ពស់ជាមួយ SQL Parameter Binding។',
+    features: [
+      'Dynamic table reservations and dining party validation',
+      'Menu item categorization with variable pricing models',
+      'Customer order intake and kitchen ticket flow',
+      'Parameterized SQL queries for zero SQL injection vulnerabilities'
+    ],
+    featuresKh: [
+      'ការកក់តុ និងការបញ្ជាក់ចំនួនភ្ញៀវ',
+      'ការរៀបចំប្រភេទម្ហូប និងតម្លៃ dynamically',
+      'ការទទួលការបញ្ជាទិញម្ហូប',
+      'សុវត្ថិភាពទិន្នន័យខ្ពស់ជាមួយ SQL Parameter Binding'
+    ],
+    technologies: ['PHP', 'MySQL', 'JavaScript', 'CSS'],
+    github: 'https://github.com/NgetMeas22/MeXas-Restaurant',
+    live: null, // https://me-xas-restaurant.vercel.app returns 404 — redeploy then restore
+    category: ['PHP', 'MySQL'],
+    isTeamProject: false,
+    featured: false,
+    year: '2025'
+  },
+
+// 14. PERSONAL PORTFOLIO
+  {
+    id: 'personal-portfolio',
+    slug: 'personal-portfolio',
+    title: 'Personal Portfolio I',
+    description: 'Modern, high-performance personal developer portfolio website built with React and Vite featuring responsive UI and interactive showcase components.',
+    descriptionKh: 'គេហទំព័រផលប័ត្រផ្ទាល់ខ្លួន (Portfolio) ទំនើប និងមានល្បឿនលឿន បង្កើតឡើងដោយ React និង Vite ជាមួយការរចនាទាក់ទាញ និងឆ្លើយតបគ្រប់ឧបករណ៍។',
+    problem: 'Developers need an engaging, fast-loading, and responsive platform to present their skills, technical certifications, and featured project repositories.',
+    problemKh: 'អ្នកអភិវឌ្ឍន៍ត្រូវការគេហទំព័រផ្ទាល់ខ្លួនមួយដែលមានល្បឿនលឿន និងទាក់ទាញ ដើម្បីបង្ហាញពីសមត្ថភាព វិញ្ញាបនបត្រ និងគម្រោងស្នាដៃផ្សេងៗ។',
+    solution: 'Engineered a clean, component-driven frontend architecture leveraging Vite for blazing-fast bundling and seamless performance.',
+    solutionKh: 'បានបង្កើតគេហទំព័រផ្អែកលើ Component ដោយប្រើប្រាស់ Vite ជួយឱ្យការដំណើរការទំព័រ និងការបើកមើលគម្រោងមានភាពរលូនបំផុត។',
+    features: [
+      'Component-based architecture powered by React & Vite',
+      'Fully responsive UI layout optimized for all device screens',
+      'Interactive project showcase and certificate viewer',
+      'Direct social connections, deployment tracking, and contact integration'
+    ],
+    featuresKh: [
+      'ស្ថាបត្យកម្មផ្អែកលើ Component បង្កើតដោយ React & Vite',
+      'ទម្រង់ Layout ឆ្លើយតបយ៉ាងពេញលេញលើគ្រប់ទំហំអេក្រង់',
+      'ផ្ទាំងបង្ហាញគម្រោង និងការពិនិត្យមើលវិញ្ញាបនបត្រអន្តរកម្ម',
+      'ការភ្ជាប់បណ្តាញសង្គម និងទម្រង់សម្រាប់ទំនាក់ទំនង'
+    ],
+    technologies: ['React', 'Vite', 'JavaScript', 'HTML5', 'CSS3'],
+    github: 'https://github.com/NgetMeas22/portfolio',
+    live: null, // old Vercel URL now serves a different site
+    category: ['Frontend'],
+    isTeamProject: false,
+    featured: true,
+    year: '2025'
+  },
+  // 6. CAFE GOLDEN
+  {
+    id: 'cafe-golden',
+    slug: 'cafe-golden',
+    title: 'Cafe Golden',
+    description: 'Modern coffee lounge and bakery web storefront crafted in React and Vite with fluid catalog navigation, state-driven ordering, and responsive styling.',
+    descriptionKh: 'គេហទំព័របង្ហាញម៉ឺនុយហាងកាហ្វេ និងនំប៉័ងបែបទំនើប បង្កើតឡើងជាមួយ React និង Vite។',
+    problem: 'Traditional paper menus lack customer engagement and do not allow patrons to calculate order costs before approaching counters.',
+    problemKh: 'កាហ្វេត្រូវការប្រព័ន្ធម៉ឺនុយឌីជីថលដើម្បីបង្ហាញផលិតផល និងដោះស្រាយការបញ្ជាអតិថិជនប្រកបដោយប្រសិទ្ធភាព។',
+    solution: 'Developed an interactive SPA powered by Vite and React hooks that provides instant item filtering and shopping cart computation.',
+    solutionKh: 'បានបង្កើតកម្មវិធី React + Vite ជាមួយម៉ឺនុយឌីជីថល ប្រព័ន្ធកន្ត្រកទំនិញ និងការរចនា UI ឆ្លើយតបយ៉ាងរលូន។',
+    features: [
+      'Blazing fast route rendering powered by Vite build tooling',
+      'Interactive beverage and bakery catalog browser',
+      'Client-side cart calculation with local cache persistence',
+      'Mobile-optimized touch layout'
+    ],
+    featuresKh: [
+      'ល្បឿនលឿនជាមួយ Vite build core',
+      'ការជ្រើសរើសម៉ឺនុយភេសជ្ជៈយ៉ាងរលូន',
+      'ការគិតប្រាក់ក្នុង Cart ដោយប្រើ Local Storage',
+      'បង្ហាញបានយ៉ាងស្អាតលើគ្រប់ទូរស័ព្ទ និងកុំព្យូទ័រ'
+    ],
+    technologies: ['React', 'Vite', 'JavaScript', 'Tailwind CSS'],
+    github: 'https://github.com/NgetMeas22/Cafe-Golden',
+    live: null, // https://cafe-golden.vercel.app returns 404 — redeploy then restore
+    category: ['React', 'Frontend'],
+    isTeamProject: false,
+    featured: false,
+    year: '2025'
+  },
+  // 13. CAR DEALERSHIP
+  {
+    id: 'car-dealership',
+    slug: 'car-dealership',
+    cover: '/projects/car-dealership.webp',
+    title: 'Car Dealership',
+    description: 'High-performance automotive showroom web portal built purely with semantic HTML5 structures and custom CSS3 responsive layouts.',
+    descriptionKh: 'គេហទំព័របង្ហាញរថយន្ត និងសេវាកម្មទិញលក់រថយន្ត បង្កើតឡើងដោយ HTML5 និង CSS3 សុទ្ធ។',
+    problem: 'Vehicle showrooms require high-speed asset delivery without client-side script overhead to ensure optimal initial page load speeds.',
+    problemKh: 'អ្នកលក់រថយន្តត្រូវការវេទិកាតាមអ៊ីនធឺណិតដើម្បីបង្ហាញសារពើភ័ណ្ឌរថយន្តរបស់ពួកគេជាមួយល្បឿនផ្ទុករហ័ស។',
+    solution: 'Designed a lightweight frontend interface using flexbox, CSS grid, and optimized static asset packaging.',
+    solutionKh: 'បានបង្កើតវេទិកាអ្នកលក់រថយន្តឆ្លើយតបជាមួយ CSS Grid និង Flexbox ដោយគ្មាន Framework ធ្ងន់ៗ។',
+    features: [
+      'Pure CSS layout grid and responsive vehicle cards',
+      'Zero dependency footprint for near-instant rendering',
+      'Vehicle specification comparison panels',
+      'Direct contact request and appraisal booking forms'
+    ],
+    featuresKh: [
+      'រៀបចំ Layout ដោយ CSS Grid និង Flexbox សុទ្ធ',
+      'ល្បឿនដំណើរការរហ័ស គ្មាន Framework ធ្ងន់ៗ',
+      'ផ្ទាំងបង្ហាញលក្ខណៈបច្ចេកទេសរថយន្ត',
+      'ទម្រង់ទំនាក់ទំនងសម្រាប់សាកសួរតម្លៃ'
+    ],
+    technologies: ['HTML5', 'CSS3', 'JavaScript'],
+    github: 'https://github.com/NgetMeas22/Car-Dealership',
+    live: 'https://car-dealership-five-snowy.vercel.app',
+    category: ['Frontend'],
+    isTeamProject: false,
+    featured: false,
+    year: '2025'
+  },
+
+  
+
+];

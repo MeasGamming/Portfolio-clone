@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+nul
+agent_guide.md
+
+# Large media files (>100MB exceeds GitHub limits)
+public/projects/videos/dyd-property.mp4
+public/projects/videos/cinema-management-system.mp4
+public/projects/videos/IMG_9077.MP4
+public/projects/videos/IMG_9077.mp4
